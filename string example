@@ -1,0 +1,4 @@
+Store ' CONTACT@DATAMITES.COM ' in email, first strip the spaces and then convert it to lowercase, updating the variable after each step. At each step, assign the result to the same variable email.
+email='   CONTACT@DATAMITES.COM  '
+email=email.lower()
+email=email.strip()
